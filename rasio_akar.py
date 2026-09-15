@@ -1,4 +1,4 @@
-# Realisasi
+
 def rasio_akar(a: float, b: float, c: float) -> float:
     diskriminan = b ** 2 - 4 * a * c
 
@@ -16,3 +16,10 @@ def rasio_akar(a: float, b: float, c: float) -> float:
             return -999
         else:
             return akar_besar / akar_kecil
+            
+
+print(rasio_akar(1, -3, 2))  
+print(rasio_akar(1, 2, 5))     
+print(rasio_akar(0, 2, 5))   
+print(rasio_akar(1, -4, 4))   
+
